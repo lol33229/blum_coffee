@@ -1,0 +1,61 @@
+@import "tailwindcss";
+@tailwind components;
+@tailwind utilities;
+
+body{
+  overflow-x: hidden
+}
+
+.krug:after{
+  top: -245px;
+  transform: translateX(-58%);
+  content: '';
+  position: absolute;
+  width: 1700px;
+  height: 1500px;
+  border-radius: 50%;
+  background-color: #7EDAFF;
+  z-index: -1;
+  clip-path: inset(0px 0px 364px 0px);
+  
+}
+
+.krug2:after{
+  top: -650px;
+  transform: translateX(10%);
+  content: '';
+  position: absolute;
+  width: 1600px;
+  height: 1031px;
+  border-radius: 50%;
+  background-color: #7EDAFF;
+  z-index: -1;
+  clip-path: inset(0px 0px 0px 0px);
+  
+}
+
+.devkrug:after{
+  left: 195px;
+  transform: skew(-35deg);
+  top: 1157px;
+  content: '';
+  position: absolute;
+  width: 468px;
+  height: 233px;
+  border-radius: 50%;
+  background-color: #7EDAFF;
+  z-index: -1;
+}
+
+.devkrug2{
+  left: 195px;
+  transform: skew(-35deg);
+  top: 1450px;
+  content: '';
+  position: absolute;
+  width: 468px;
+  height: 233px;
+  border-radius: 50%;
+  background-color: #7EDAFF;
+  z-index: -1;
+}
