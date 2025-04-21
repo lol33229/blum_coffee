@@ -59,3 +59,39 @@ body{
   background-color: #7EDAFF;
   z-index: -1;
 }
+
+.moti{
+  left: -750px;
+  position: absolute;
+}
+
+.kotik{
+  right: -830px;
+  position: absolute;
+}
+
+.oval1:after{
+  left: -400px;
+  
+  top: 1940px;
+  content: '';
+  position: absolute;
+  width: 700px;
+  height: 1100px;
+  border-radius: 50%;
+  background-color: #7EDAFF;
+  z-index: -1;
+}
+
+.oval2:after{
+  right: -400px;
+  
+  top: 1940px;
+  content: '';
+  position: absolute;
+  width: 700px;
+  height: 1100px;
+  border-radius: 50%;
+  background-color: #7EDAFF;
+  z-index: -1;
+}
