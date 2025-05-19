@@ -10,7 +10,7 @@ export default function Location({ }: Props) {
     <div className='oval2'/>
 
       {/* Текстовый блок */}
-      <div className='mb-8'>
+      <div className='mb-8' >
         <p className='text-2xl font-bold text-center mb-2 text-[#7EDAFF] text-[50px] mt-[115px]'>Удобное расположение в центре Екатеринбурга в</p>
         <p className='text-2xl font-bold text-center text-[#7EDAFF] text-[50px]'>вашем любимом торговом центре Гринвич!</p>
       </div>

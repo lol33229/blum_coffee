@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 type Props = {}
 
@@ -23,7 +24,7 @@ export default function Footer({ }: Props) {
 
         <div className='w-full flex flex-col justify-between gap-2 font-bold'>
           <p className='text-[#B8B8B8] text-[35px]'>Главная</p>
-          <p className='text-[#B8B8B8] text-[35px]'>Меню</p>
+          <Link to="/shop" className='text-[#B8B8B8] text-[35px]'>Меню</Link>
           <p className='text-[#B8B8B8] text-[35px]'>Доставка</p>
         </div>
 

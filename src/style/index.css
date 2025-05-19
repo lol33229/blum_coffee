@@ -95,3 +95,15 @@ body{
   background-color: #7EDAFF;
   z-index: -1;
 }
+
+
+.fon:after{
+  content: '';
+  position: absolute;
+  width: 2000px;
+  height: 120px;
+  background-color: #7EDAFF;
+  z-index: -1;
+  left: 50%;
+  transform: translateX(-50%);
+}

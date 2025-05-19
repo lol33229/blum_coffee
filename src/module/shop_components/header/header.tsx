@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 type Props = {}
 
-export default function Header({ }: Props) {
+export default function ShopHeader({ }: Props) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -12,12 +12,11 @@ export default function Header({ }: Props) {
 
   return (
     <header className="w-full">
-      <div className='krug2 ' />
-      <div className='krug' />
+      <div className='fon ' />
       {/* Стандартный header для ПК */}
-      <div className="hidden md:flex w-full p-4 items-center justify-between relative">
+      <div className="hidden md:flex p-4 items-center justify-between relative mb-[177px]">
         
-        <img src="/image/logo.png" alt="Логотип" />
+        <img className='ml-[55px]' src="/image/logo.png" alt="Логотип" />
           
     
         <div className="w-full flex items-center justify-between ml-[61px] relative">
@@ -32,7 +31,7 @@ export default function Header({ }: Props) {
         
         <a className='text-[#FFFFFF] font-normal text-[30px] leading-[36px]' href="#why">Контакты</a>
         <Link to="/shop" className='text-[#FFFFFF] font-normal text-[30px] leading-[36px]'>Меню</Link>
-        <img src="/image/user.png" alt="Профиль" />
+        <img  src="/image/user.png" alt="Профиль" />
         </div>
       </div>
 
