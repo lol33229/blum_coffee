@@ -16,22 +16,22 @@ export default function ShopHeader({ }: Props) {
       {/* Стандартный header для ПК */}
       <div className="hidden md:flex p-4 items-center justify-between relative mb-[177px]">
         
-        <img className='ml-[55px]' src="/image/logo.png" alt="Логотип" />
+        <img className='ml-[52px] mr-[82px]' src="/image/logo.png" alt="Логотип" />
           
     
-        <div className="w-full flex items-center justify-between ml-[61px] relative">
+        <div className="w-full flex items-center justify-between mr-[82px] relative">
           <a className='text-[#FFFFFF] font-normal text-[30px] leading-[36px]' href="#about">
             Время работы
           </a>
 
-          <a className='text-[#FFFFFF] font-normal text-[30px] leading-[36px] relative z-10' href="#2">
+          <a className='mr-[82px] text-[#FFFFFF] font-normal text-[30px] leading-[36px] relative z-10' href="#2">
             ДОСТАВКА
           </a>
         
         
-        <a className='text-[#FFFFFF] font-normal text-[30px] leading-[36px]' href="#why">Контакты</a>
+        <a className=' mr-[82px] text-[#FFFFFF] font-normal text-[30px] leading-[36px]' href="#why">Контакты</a>
         <Link to="/shop" className='text-[#FFFFFF] font-normal text-[30px] leading-[36px]'>Меню</Link>
-        <img  src="/image/user.png" alt="Профиль" />
+        <img  className='mr-[52px]' src="/image/user.png" alt="Профиль" />
         </div>
       </div>
 
