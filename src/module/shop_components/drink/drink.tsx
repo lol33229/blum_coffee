@@ -2,7 +2,7 @@ import Item from "./components/item"
 
 type Props = {}
 
-export default function Chessee({ }: Props) {
+export default function Drink({ }: Props) {
   const items =[
     {
       id: 1,
@@ -27,12 +27,6 @@ export default function Chessee({ }: Props) {
       title: 'Панкейк клубника',
       price: '640₽',
       src: '/image/pank1.png'
-    },
-    {
-      id: 5,
-      title: 'Панкейк клубника',
-      price: '640₽',
-      src: '/image/pank1.png'
     }
   ]
   
@@ -42,13 +36,13 @@ export default function Chessee({ }: Props) {
     <div className="w-full">
       <div className='fon2 ' />
         <div className='text-2xl font-bold text-center text-[#FFFFFF] text-[43px]  p-4'>
-            <p>Хлопковые чизкейки — настолько нежные, что они </p>
-            <p> буквально исчезают на языке, оставляя сладкое </p>
-            <p>сливочное послевкусие.</p>
+            <p>Напитки с сырной пенкой — неожиданно, </p>
+            <p>волшебно, восхитительно. Это как десерт и </p>
+            <p>напиток в одном глотке. </p>
         </div>
 
         <div className='mt-[29px] text-2xl font-bold text-center mb-2 text-[#7EDAFF] text-[43px]'>
-            <p>Чизкейки</p>
+            <p>Напитки</p>
         </div>
 
         <div className="mt-10 grid grid-cols-3 gap-3 justify-items-center">

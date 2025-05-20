@@ -32,7 +32,10 @@ export default function Header({ }: Props) {
         
         <a className='text-[#FFFFFF] font-normal text-[30px] leading-[36px]' href="#why">Контакты</a>
         <Link to="/shop" className='text-[#FFFFFF] font-normal text-[30px] leading-[36px]'>Меню</Link>
-        <img src="/image/user.png" alt="Профиль" />
+        <Link to="/profile" className='text-[#FFFFFF] font-normal text-[30px] leading-[36px]'>
+          <img src="/image/user.png" alt="Профиль" />
+        </Link>
+        
         </div>
       </div>
 
