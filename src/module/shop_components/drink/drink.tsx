@@ -34,8 +34,8 @@ export default function Drink({ }: Props) {
 
   return (
     <div className="w-full">
-      <div className='fon2 ' />
-        <div className='text-2xl font-bold text-center text-[#FFFFFF] text-[43px]  p-4'>
+      <div className='fon4 ' />
+        <div className='text-2xl font-bold text-center text-[#FFFFFF] text-[55px]'>
             <p>Напитки с сырной пенкой — неожиданно, </p>
             <p>волшебно, восхитительно. Это как десерт и </p>
             <p>напиток в одном глотке. </p>

@@ -40,8 +40,8 @@ export default function Chessee({ }: Props) {
 
   return (
     <div className="w-full">
-      <div className='fon2 ' />
-        <div className='text-2xl font-bold text-center text-[#FFFFFF] text-[43px]  p-4'>
+      <div className='fon4 ' />
+        <div className='text-2xl font-bold text-center text-[#FFFFFF] text-[55px]'>
             <p>Хлопковые чизкейки — настолько нежные, что они </p>
             <p> буквально исчезают на языке, оставляя сладкое </p>
             <p>сливочное послевкусие.</p>

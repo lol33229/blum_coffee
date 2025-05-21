@@ -77,8 +77,8 @@ export default function Menu({}: Props) {
   return (
     <div className="w-full">
         <p className='text-2xl font-bold text-center mb-[34px] text-[#FD744C] text-[43px]'>Меню</p>
-        <div className='fon2 ' />
-        <div className='text-2xl font-bold text-center mb-2 text-[#FFFFFF] text-[43px] mt-[69px]'>
+        <div className='fon3 ' />
+        <div className='text-2xl font-bold text-center mb-2 text-[#FFFFFF] text-[55px] mt-[43px]'>
             <p>Панкейки, тающие во рту — легкие, как утренний</p>
             <p> ветерок, с хрустящей корочкой и воздушные внутри.</p>
         </div>

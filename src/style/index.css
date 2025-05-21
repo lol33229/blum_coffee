@@ -16,7 +16,7 @@ body{
   border-radius: 50%;
   background-color: #7EDAFF;
   z-index: -1;
-  clip-path: inset(0px 0px 364px 0px);
+  clip-path: inset(0px 0px 358px 0px);
   
 }
 
@@ -113,6 +113,18 @@ body{
   position: absolute;
   width: 1730px;
   height: 201px;
+  border-radius: 30px;
+  background-color: #7EDAFF;
+  z-index: -1;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.fon4:after{
+  content: '';
+  position: absolute;
+  width: 1730px;
+  height: 235px;
   border-radius: 30px;
   background-color: #7EDAFF;
   z-index: -1;

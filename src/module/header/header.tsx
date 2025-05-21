@@ -16,24 +16,26 @@ export default function Header({ }: Props) {
       <div className='krug' />
       {/* Стандартный header для ПК */}
       <div className="hidden md:flex w-full p-4 items-center justify-between relative">
-        
-        <img src="/image/logo.png" alt="Логотип" />
-          
+      <Link to="/" className='' >
+          <img className='w-[300px] h-[67px]' src="/image/logo.png" alt="Логотип" />
+        </Link>
     
-        <div className="w-full flex items-center justify-between ml-[61px] relative">
-          <a className='text-[#FFFFFF] font-normal text-[30px] leading-[36px]' href="#about">
-            Время работы
-          </a>
+        <div className="w-full flex items-center justify-between ml-[61px] relative font-bold ">
+          <div className='text-[#FFFFFF] text-[30px] leading-[36px] flex flex-col items-center'>
+            <p className=''>ГРАФИК РАБОТЫ</p>
+            <p className=''>ПН-ВС: 10:00-22:00</p>
+          </div>
+          
 
-          <a className='text-[#FFFFFF] font-normal text-[30px] leading-[36px] relative z-10' href="#2">
+          <a className='text-[#FFFFFF] text-[35px] leading-[36px] relative z-10' href="#2">
             ДОСТАВКА
           </a>
         
         
-        <a className='text-[#FFFFFF] font-normal text-[30px] leading-[36px]' href="#why">Контакты</a>
-        <Link to="/shop" className='text-[#FFFFFF] font-normal text-[30px] leading-[36px]'>Меню</Link>
-        <Link to="/profile" className='text-[#FFFFFF] font-normal text-[30px] leading-[36px]'>
-          <img src="/image/user.png" alt="Профиль" />
+        <a className='text-[#FFFFFF] text-[35px] leading-[36px]' href="#why">КОНТАКТЫ</a>
+        <Link to="/shop" className='text-[#FFFFFF] text-[35px] leading-[36px]'>МЕНЮ</Link>
+        <Link to="/profile" className='text-[#FFFFFF] text-[35px] leading-[36px]'>
+          <img src="/image/user.png" alt="ПРОФИЛЬ" />
         </Link>
         
         </div>
@@ -54,17 +56,6 @@ export default function Header({ }: Props) {
           <div className="w-6 h-0.5 bg-black"></div>
         </button>
       </div>
-
-      {/* Выпадающее мобильное меню */}
-      {isMenuOpen && (
-        <nav className="md:hidden flex flex-col p-4 bg-white shadow-lg">
-          <a className="text-[#FFFFFF] font-normal text-[20px] leading-[24px] mb-2" href="#about">О нас</a>
-          <a className="text-[#FFFFFF] font-normal text-[20px] leading-[24px] mb-2" href="#2">Новости</a>
-          <a className="text-[#FFFFFF] font-normal text-[20px] leading-[24px] mb-2" href="#3">Преимущества</a>
-          <a className="text-[#FFFFFF] font-normal text-[20px] leading-[24px] mb-2" href="#why">Почему мы</a>
-          <a className="text-[#1E4DC2] font-normal text-[20px] leading-[24px]" href="#contact">Связь с нами</a>
-        </nav>
-      )}
     </header>
   );
 }

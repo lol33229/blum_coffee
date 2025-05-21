@@ -16,14 +16,14 @@ export default function Footer({}: Props) {
       </div>
 
       {/* Время работы */}
-      <div className="flex flex-col font-bold mt-[45px] text-[#B8B8B8] text-[35px]">
+      <div className="flex flex-col font-bold mt-[45px] text-[#B8B8B8] text-[35px] items-center">
         <p>Ждём вас у нас</p>
         <p>с 10 до 22</p>
       </div>
 
       {/* Навигация */}
       <div className="flex flex-col justify-between gap-2 font-bold text-[#B8B8B8] text-[35px] text-right">
-        <p>Главная</p>
+        <Link to="/">Главная</Link>
         <Link to="/shop">Меню</Link>
         <p>Доставка</p>
       </div>

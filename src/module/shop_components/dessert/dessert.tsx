@@ -23,7 +23,7 @@ export default function Dessert({ }: Props) {
   return (
     <div className="w-full">
       <div className='fon3 ' />
-        <div className='text-2xl font-bold text-center text-[#FFFFFF] text-[43px] p-4'>
+        <div className='text-2xl font-bold text-center text-[#FFFFFF] text-[55px]'>
             <p>Мы экспериментируем, чтобы дарить вам новые</p>
             <p>вкусовые эмоции.</p>
         </div>

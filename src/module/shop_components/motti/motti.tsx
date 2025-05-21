@@ -53,7 +53,7 @@ export default function Motti({ }: Props) {
   return (
     <div className="w-full">
       <div className='fon3 ' />
-        <div className='text-2xl font-bold text-center text-[#FFFFFF] text-[43px] p-4'>
+        <div className='text-2xl font-bold text-center text-[#FFFFFF] text-[55px]'>
             <p>Моти — как маленькие облачка, которые тают во</p>
             <p>рту. Успейте попробовать все вкусы! </p>
         </div>
